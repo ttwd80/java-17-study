@@ -33,3 +33,6 @@ jobs:
         uses: docker://avtodev/markdown-lint:v1 # fastest way
         with:
           args: '.'
+
+      - name: Run chapter01.MathBadAbsInteger
+        run: javac chapter01/MathBadAbsInteger.java && java chapter01.MathBadAbsInteger
