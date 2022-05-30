@@ -2,7 +2,7 @@
 
 Java 17 - 1Z0-829 - [Link](https://education.oracle.com/java-se-17-developer/pexam_1Z0-829)
 
-## Handling date, time, text, numeric and boolean values
+## [Handling date, time, text, numeric and boolean values](./chapter01/README.md)
 
 - Use primitives and wrapper classes including Math API, parentheses,
   type promotion, and casting to evaluate arithmetic and boolean expressions
