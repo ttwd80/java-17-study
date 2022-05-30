@@ -1,6 +1,6 @@
 package chapter01;
 
-public class MathAPI {
+public class MathBadAbsInteger {
   
   public static void process(int value) {
     System.out.println("Processing " + value);
