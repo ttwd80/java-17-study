@@ -35,4 +35,4 @@ jobs:
           args: '.'
 
       - name: Run chapter01
-        run: build-chapter.sh chapter01
+        run: ./build-chapter.sh chapter01
