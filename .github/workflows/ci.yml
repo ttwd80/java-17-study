@@ -34,5 +34,5 @@ jobs:
         with:
           args: '.'
 
-      - name: Run chapter01.MathBadAbsInteger
-        run: javac chapter01/MathBadAbsInteger.java && java chapter01.MathBadAbsInteger
+      - name: Run chapter01
+        run: build-chapter.sh chapter01
