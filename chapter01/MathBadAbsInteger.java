@@ -1,31 +1,27 @@
 package chapter01;
 
 public class MathBadAbsInteger {
-  
+
   public static void process(int value) {
     System.out.println("Processing " + value);
     System.out.println("Math.abs => " + Math.abs(value));
     System.out.println("Done");
   }
-  
+
   public static void main(String[] args) {
-    process(-5);
-    System.out.println();
-    process(0);
-    System.out.println();
-    process(7);
-    System.out.println();
-    process(81);
-    System.out.println();
-    process(-12);
-    System.out.println();
-    process(-673);
-    System.out.println();
-    process(592);
-    System.out.println();
-    process(Integer.MIN_VALUE);
-    System.out.println();
-    process(Integer.MAX_VALUE);
-    System.out.println();
+    final int[] values = {
+        -5,
+        0,
+        7,
+        81,
+        -12,
+        -673,
+        592,
+        Integer.MIN_VALUE,
+    };
+    for (int value : values) {
+      process(value);
+      System.out.println();
+    }
   }
 }
